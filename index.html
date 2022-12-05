@@ -14,7 +14,7 @@
     <label for="date-of-birth">Date of Birth:</label>
     <input id="date-of-birth" type="date">
     <label for="lucky-number">Lucky Number </label>
-    <input id="lucky-number" type="number" min="1" onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))">
+    <input id="lucky-number" type="number" name="test_name" min="1" oninput="validity.valid||(value='');"/>
     <button id="check-number">Check Number </button>
     <div id="output-box"> </div>
   </div>
